@@ -15,7 +15,7 @@ with open("coco.names", "r") as f:
 target_classes = ["ambulance", "Police", "firetruck"]
 
 # Open video capture
-VIDEOS_DIR = os.path.join('.', 'videos')
+VIDEOS_DIR = os.path.join('.', 'vTestVideos')
 
 video_path = os.path.join(VIDEOS_DIR, 'ambulacetest.mp4')
 video_path_out = '{}_out.mp4'.format(video_path)
